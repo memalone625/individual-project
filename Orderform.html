@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+	 	<PRE><a href="file:///Users/markmalone/Downloads/indivproject.html" target="blank_"> Return to Homepage </a>
+</br>
+<script>
+document.write("Time is waisting, go out and see some animals!");
+document.write(Date());
+</script>
+ 	</PRE>
+
+
+<link rel="stylesheet" type="text/css" href="internal.css">
+<title> Order form </title>
+
+<style type="text/css">
+body {
+	color: white;
+	background-color:brown;
+}
+</style>
+
+<br />
+</head>
+<body>
+<b1 align="center"> Order here to make your best buddies day!</h1>
+	<form action="mailto:memalone@scu.edu" method="post" enctype="text/plain">
+<center>Order Form <br />
+<br />
+First Name:<br />
+<input type="text" name="" align="center">
+<br />
+
+Last Name:<br />
+<input type="text" name="" align="center">
+<br />
+
+Address:<br />
+<input type="text" address="" align="center">
+</br>
+<br />
+
+
+<br />
+Shipping Options: <br />
+<input type="radio" name="food" value="kind"> 1-2 day shipping($10.99) <br />
+<input type="radio" name="food" value="kind"> 3-5 day shipping($6.99) <br />
+<input type="radio" name="food" value="kind"> 7 Day shipping(Standard)($3.99) <br />
+
+
+<br />
+
+
+<br />
+
+Please enter a number from 1-10 to verify that you are not a robot. 
+
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+var x, text;
+x = document.getElementById("numb").value;
+if (isNaN(x) || x < 1 || x > 10) {
+text = "Input not valid";
+} else {
+text = "Input OK";
+}
+document.getElementById("demo").innerHTML = text;
+}
+</script>
+Would you like to subscribe to our newsletter?: <br /> 
+<select>
+	<option> Yes </option>
+	<option> No </option>
+	
+</select>
+<br />
+<br />
+<b1><a href="https://www.aspca.org"> Do you love animals? See how you can help the ones who need it most> </a> <br />
+</b1>
+
+
+<br />
+<br />
+<input type="submit" value="Submit">
+<input type="reset" value="Reset"></center>
+</body>
+</form>
+</html>
